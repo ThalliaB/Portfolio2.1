@@ -1,0 +1,56 @@
+.card {
+    background-color: #fff;
+    box-shadow: 10px 5px 10px rgb(153, 151, 151);
+    border-radius: 12px;
+    margin-bottom: 2em;
+    width: 30vw;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.imgCard {
+    border-radius: 12px 12px 0 0;
+    width: 30vw;
+}
+
+.imgCard:hover {
+    opacity: .5;
+}
+
+.h2Card {
+   padding: 20px 0 0 20px; 
+}
+
+.pCard{
+    padding: 5px 0 0 20px;
+}
+
+.h6Card {
+    font-size: .9em;
+    padding: 20px 0 20px 20px; 
+}
+
+.linkCard svg {
+    color: #000;
+    font-size: 1.5em;
+    margin: 10px 0 20px 20px ;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card, .imgCard {
+        width: 40vw;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .card, .imgCard {
+        width: 80vw;
+    }
+}

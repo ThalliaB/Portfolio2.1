@@ -1,0 +1,33 @@
+.experience {
+   padding: 3em 4em;
+   width: 100%;
+   line-height: 1.8em;
+   font-size: 1.2em;
+   background-color: #F7F5F1;
+}
+
+.h1Experience {
+   text-align: center;
+   font-size: 2em;
+   padding-bottom: 1em;
+}
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+   .experience {
+      padding: 2em;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .experience {
+      padding: 1em;
+      line-height: 1.4em;
+      font-size: 1.1em;   
+   }
+}

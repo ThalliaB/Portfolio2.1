@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body, #root {
+  color: #2c2c2c;
+  background-color: #E6E2D7;
+  height: 100%;
+  overflow-x: hidden; /*evita o scroll*/
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
