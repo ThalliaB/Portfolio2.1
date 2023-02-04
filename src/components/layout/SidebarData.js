@@ -14,7 +14,7 @@ export const SidebarData = [
   },
   {
     title: 'SOBRE',
-    path: '/aboutMe',
+    path: '/aboutme',
     icon: <IoIosPaper  className='btnList'/>,
     cName: styles.nav_text
   },

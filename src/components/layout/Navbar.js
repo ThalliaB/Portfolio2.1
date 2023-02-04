@@ -27,7 +27,7 @@ function Navbar() {
             <Link exact='true' to='/'>INÍCIO</Link>
           </li>
           <li className={styles.item}>
-            <Link to='/aboutMe'>SOBRE</Link>
+            <Link to='/aboutme'>SOBRE</Link>
           </li>
           <li className={styles.item}>
             <Link to='/experience'>MEUS PROJETOS</Link>
