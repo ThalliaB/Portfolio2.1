@@ -13,7 +13,7 @@ function App() {
         <Routes>
           {/* para a versão utilizada do react-router que é a v.6 se utiliza outra sintaxe para renderizar às páginas */}
           <Route exact path='/' element={<Home />}/>
-          <Route exact path='/aboutMe' element={<AboutMe />}/>
+          <Route exact path='/aboutme' element={<AboutMe />}/>
           <Route exact path='/experience' element={<Experience />}/>
         </Routes>
       <Footer/>
