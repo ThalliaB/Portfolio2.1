@@ -17,8 +17,10 @@ function Navbar() {
 
     <IconContext.Provider value={{ color: '#000' }}>
       <div className={styles.navbar} >
-        <h1 className={styles.h1}>Thallia Julliana Brum</h1>
-        <h1 className={styles.h1_menor}>Thallia</h1>
+        <Link to='/' exact='true' className={styles.h1}>Thallia Julliana Brum</Link>
+        <Link to='/' exact='true' className={styles.h1_menor}>Thallia</Link>
+        {/* <h1 className={styles.h1}><a href='/'>Thallia Julliana Brum</a></h1> */}
+        {/* <h1 className={styles.h1_menor}>Thallia</h1> */}
         <Link to='#' className={styles.menu_bars}>
           <FaBars onClick={showSidebar} />
         </Link>

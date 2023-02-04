@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img from '../../img/fotoPerfil2.jpg';
 import img2 from '../../img/fotoPerfil768px.jpg';
 import styles from './Home.module.css';
@@ -12,9 +13,9 @@ function Home() {
                     <div className={styles.div_sobre}>
                         <h1>Desenvolvedora Front-end</h1>
                         <span>Apaixonada por códigos!</span>
-                        <button className={styles.button}>
-                            <a href='/aboutMe' className={styles.link_button}>VEJA SOBRE MIM</a>
-                        </button>
+                        <li className={styles.button}>
+                            <Link className={styles.link_button} to='/aboutme'>VEJA SOBRE MIM</Link>
+                        </li>
                     </div>
                     <svg className={styles.waves} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                         <path className={styles.wave1} fill="#eeedea" fillOpacity="1" d="M0,96L16,85.3C32,75,64,53,96,74.7C128,96,160,160,192,181.3C224,203,256,181,288,170.7C320,160,352,160,384,160C416,160,448,160,480,160C512,160,544,160,576,149.3C608,139,640,117,672,112C704,107,736,117,768,133.3C800,149,832,171,864,160C896,149,928,107,960,106.7C992,107,1024,149,1056,186.7C1088,224,1120,256,1152,224C1184,192,1216,96,1248,69.3C1280,43,1312,85,1344,128C1376,171,1408,213,1424,234.7L1440,256L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z"></path>

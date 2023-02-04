@@ -10,7 +10,11 @@
 }
 
 .h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 3em;
+    text-decoration: none;
+    color: #221E1F;
 }
 
 .h1_menor {
@@ -165,6 +169,11 @@
     }
 
     .h1_menor {
+        color: #221E1F;
         display: block;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 2em;
+        text-decoration: none;
     }
 }
