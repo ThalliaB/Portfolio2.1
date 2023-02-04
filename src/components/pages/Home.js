@@ -13,7 +13,7 @@ function Home() {
                         <h1>Desenvolvedora Front-end</h1>
                         <span>Apaixonada por códigos!</span>
                         <button className={styles.button}>
-                            <a href='/aboutMe' className={styles.link_button}>VEJA SOBRE MIM</a>
+                            <a href='/aboutme' className={styles.link_button}>VEJA SOBRE MIM</a>
                         </button>
                     </div>
                     <svg className={styles.waves} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
