@@ -12,7 +12,7 @@
 .h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2.5em;
     text-decoration: none;
     color: #221E1F;
 }
@@ -68,9 +68,9 @@
     .navbar {
         height: 5em;
     }
-    
+
     .h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .item a {
@@ -164,7 +164,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .h1{
+    .h1 {
         display: none;
     }
 
