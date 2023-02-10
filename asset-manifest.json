@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45821776.css",
+    "main.js": "/static/js/main.afd6ef06.js",
+    "static/media/foto4.jpg": "/static/media/foto4.885bd2043451eea561d0.jpg",
+    "static/media/foto3.1.jpg": "/static/media/foto3.1.cd63271e202b0bb2699e.jpg",
+    "static/media/foto2.1.jpg": "/static/media/foto2.1.cf828915f1657772821a.jpg",
+    "static/media/fotoPerfil2.jpg": "/static/media/fotoPerfil2.3334fde9d3e71a4f3cea.jpg",
+    "static/media/fotoPerfil768px.jpg": "/static/media/fotoPerfil768px.c14aeab692ddd07ea97c.jpg",
+    "static/media/frutaEFruto.jpg": "/static/media/frutaEFruto.1cd0fff02def067041d8.jpg",
+    "static/media/CasaFinaArquitetura.jpg": "/static/media/CasaFinaArquitetura.8679a2d2879c931d731a.jpg",
+    "static/media/wildbest.jpg": "/static/media/wildbest.a63a2627a07c747fa6c0.jpg",
+    "static/media/AluraFlix.jpg": "/static/media/AluraFlix.589ab9d74e148b25bee7.jpg",
+    "static/media/barbeariaAlura.jpg": "/static/media/barbeariaAlura.a5e68df803a61e0d38cc.jpg",
+    "static/media/LetYourComment.jpg": "/static/media/LetYourComment.1c11500d518a3bd927d2.jpg",
+    "index.html": "/index.html",
+    "main.45821776.css.map": "/static/css/main.45821776.css.map",
+    "main.afd6ef06.js.map": "/static/js/main.afd6ef06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45821776.css",
+    "static/js/main.afd6ef06.js"
+  ]
+}
