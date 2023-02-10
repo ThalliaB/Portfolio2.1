@@ -3,13 +3,20 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  --bgGray: #E6E2D7;
+  --bgClear: #F7F5F1;
+  --textColor: #2c2c2c;
+  --bgDark: #2c2c2c;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   color: #2c2c2c;
   background-color: #E6E2D7;
   height: 100%;
-  overflow-x: hidden; /*evita o scroll*/
+  overflow-x: hidden;
+  /*evita o scroll*/
 }
 
 h1 {
