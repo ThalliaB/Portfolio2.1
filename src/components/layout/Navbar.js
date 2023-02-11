@@ -19,8 +19,6 @@ function Navbar() {
       <div className={styles.navbar} >
         <Link to='/' exact='true' className={styles.h1}>Thallia Julliana Brum</Link>
         <Link to='/' exact='true' className={styles.h1_menor}>Thallia</Link>
-        {/* <h1 className={styles.h1}><a href='/'>Thallia Julliana Brum</a></h1> */}
-        {/* <h1 className={styles.h1_menor}>Thallia</h1> */}
         <Link to='#' className={styles.menu_bars}>
           <FaBars onClick={showSidebar} />
         </Link>
@@ -47,7 +45,7 @@ function Navbar() {
           {SidebarData.map((item, index) => {
             return (
               <li key={index} className={styles.nav_text}>
-                <Link to={item.path}>
+                <Link reloadDocument to={item.path}>
                   {item.icon}
                   <span>{item.title}</span>
                 </Link>

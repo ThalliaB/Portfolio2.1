@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img from '../../img/fotoPerfil2.jpg';
 import img2 from '../../img/fotoPerfil768px.jpg';
 import styles from './Home.module.css';
@@ -13,7 +14,8 @@ function Home() {
                         <h1>Desenvolvedora Front-end</h1>
                         <span>Apaixonada por códigos!</span>
                         <li className={styles.button}>
-                            <a className={styles.link_button} href='/aboutme'>VEJA SOBRE MIM</a>
+                            {/* <a className={styles.link_button} href='/aboutme'>VEJA SOBRE MIM</a> */}
+                            <Link reloadDocument to='/aboutme' className={styles.link_button}>VEJA SOBRE MIM</Link>
                         </li>
                     </div>
                     <svg className={styles.waves} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import img from '../../img/foto2.1.jpg'
 import img2 from '../../img/foto3.1.jpg'
 import img3 from '../../img/foto4.jpg'
@@ -32,7 +33,8 @@ function AboutMe() {
             </header>
             <div className={styles.div_button}>
                 <li>
-                    <a className={styles.link_button} href='/experience'>MEUS PROJETOS</a>
+                    {/* <a className={styles.link_button} href='/experience'>MEUS PROJETOS</a> */}
+                    <Link reloadDocument to='/experience' className={styles.link_button}>MEUS PROJETOS</Link>
                 </li>
             </div>
         </>
