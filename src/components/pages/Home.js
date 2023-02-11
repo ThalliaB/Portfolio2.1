@@ -14,7 +14,6 @@ function Home() {
                         <h1>Desenvolvedora Front-end</h1>
                         <span>Apaixonada por códigos!</span>
                         <li className={styles.button}>
-                            {/* <a className={styles.link_button} href='/aboutme'>VEJA SOBRE MIM</a> */}
                             <Link reloadDocument to='/aboutme' className={styles.link_button}>VEJA SOBRE MIM</Link>
                         </li>
                     </div>

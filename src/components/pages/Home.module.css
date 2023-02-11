@@ -1,16 +1,16 @@
 .header {
-    width: 100%;
-    /* height: 100%; */
+    align-items: flex-start;
+    background-color: var(--bgGray);
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: flex-start;
+    width: 100%;
 }
 
 .img {
-    width: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 50%;
 }
 
 .img2 {
@@ -18,20 +18,19 @@
 }
 
 .div_animation {
-    height: 100vh;
-    width: 50vw;
-    position: relative;
-    justify-content: center;
     display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 50vw;
 }
 
 .waves {
-    position: absolute;
-    height: 100vh;
     bottom: 0;
+    height: 100vh;
     left: 0;
+    position: absolute;
     right: 0;
-    /* z-index: 0; */
 }
 
 .wave1 {
@@ -74,7 +73,7 @@
 }
 
 .div_sobre li::after {
-    background-color: #2c2c2c;
+    background-color: var(--bgDark);
     bottom: 0;
     content: " ";
     height: 2px;
@@ -90,7 +89,6 @@
 }
 
 .div_sobre li a {
-    color: #2c2c2c;
     font-size: 1.2em;
     text-decoration: none;
 }
@@ -99,7 +97,6 @@
 @keyframes moveWave1 {
     from {
         transform: translateX(-90px);
-        /* transform: scaleY(2); */
     }
 }
 
@@ -143,9 +140,7 @@
     }
 
     .div_sobre li:hover {
-        /* font-weight: 600; */
-        background-color: #eeedea;
-        color: #000;
+        color: var(--textDark);
     }
 
     .div_sobre li:hover::after {

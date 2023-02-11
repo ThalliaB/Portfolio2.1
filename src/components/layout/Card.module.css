@@ -1,5 +1,5 @@
 .card {
-    background-color: #fff;
+    background-color: var(--bgWhite);
     box-shadow: 10px 5px 10px rgb(153, 151, 151);
     border-radius: 12px;
     margin-bottom: 2em;
@@ -20,27 +20,29 @@
 }
 
 .h2Card {
-   padding: 20px 0 0 20px; 
+    padding: 20px 0 0 20px;
 }
 
-.pCard{
+.pCard {
     padding: 5px 0 0 20px;
 }
 
 .h6Card {
     font-size: .9em;
-    padding: 20px 0 20px 20px; 
+    padding: 20px 0 20px 20px;
 }
 
 .linkCard svg {
-    color: #000;
+    color: var(--textDark);
     font-size: 1.5em;
-    margin: 10px 0 20px 20px ;
+    margin: 10px 0 20px 20px;
 }
 
 
 @media screen and (max-width: 768px) {
-    .card, .imgCard {
+
+    .card,
+    .imgCard {
         width: 40vw;
     }
 
@@ -50,7 +52,9 @@
 }
 
 @media screen and (max-width: 425px) {
-    .card, .imgCard {
+
+    .card,
+    .imgCard {
         width: 80vw;
     }
 }

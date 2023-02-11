@@ -3,17 +3,19 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  --bgGray: #E6E2D7;
+  --bgWhite: #fff;
   --bgClear: #F7F5F1;
-  --textColor: #2c2c2c;
-  --bgDark: #2c2c2c;
+  --bgGray: #E6E2D7;
+  --bgDark: #221E1F;
+  --textDark: #2c2c2c;
+  --textLight: #fff;
 }
 
 html,
 body,
 #root {
-  color: #2c2c2c;
-  background-color: #E6E2D7;
+  color: var(--textDark);
+  background-color: var(--bgClear);
   height: 100%;
   overflow-x: hidden;
   /*evita o scroll*/
@@ -22,4 +24,8 @@ body,
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+}
+
+a {
+  color: var(--textDark);
 }

@@ -1,8 +1,6 @@
 .header {
-    background-color: var(--bgClear);
     display: flex;
     font-size: 1.2em;
-    /* flex-direction: row-reverse; */
     gap: 50px;
     justify-content: space-around;
     line-height: 1.8em;
@@ -24,7 +22,6 @@
 }
 
 .div_sobre a {
-    color: #2c2c2c;
     text-decoration: none;
 }
 
@@ -58,7 +55,7 @@
 }
 
 .div_button {
-    background-color: #fff;
+    background-color: var(--bgWhite);
     display: flex;
     justify-content: center;
     padding: 1.5em;
@@ -73,11 +70,10 @@
 }
 
 .div_button li:hover {
-    background-color: #F7F5F1;
+    background-color: var(--bgClear);
 }
 
 .div_button li a {
-    color: #2c2c2c;
     font-size: 1.2em;
     text-decoration: none;
     padding: 1em 3em;
@@ -118,7 +114,6 @@
 
     .div_button li {
         padding: 0.8em 2em;
-        ;
     }
 }
 

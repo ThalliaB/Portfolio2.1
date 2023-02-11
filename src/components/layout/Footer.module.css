@@ -1,7 +1,6 @@
 .footer {
-    /* text-align: center; */
-    background-color: #221E1F;
-    color: #fff;
+    background-color: var(--bgDark);
+    color: var(--textLight);
     padding: 3em;
 }
 
@@ -12,10 +11,9 @@
 
 .info {
     display: flex;
-    /* justify-content: center; */
 }
 
-.info > div {
+.info>div {
     padding: 10px 50px 10px 0;
 }
 
@@ -23,13 +21,13 @@
     display: flex;
 }
 
-.social_list > li {
+.social_list>li {
     list-style-type: none;
     margin: 5px 20px 5px 0;
 }
 
-.social_list > li > a {
-    color: #fff;
+.social_list>li>a {
+    color: var(--textLight);
 }
 
 .social_list li a svg {
@@ -37,7 +35,7 @@
 }
 
 .copyright span {
-    margin-top: 5px; 
+    margin-top: 5px;
 }
 
 
