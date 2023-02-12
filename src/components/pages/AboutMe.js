@@ -30,12 +30,11 @@ function AboutMe() {
                 </div>
 
             </header>
-            <div className={styles.div_button}>
+            {/* <div className={styles.div_button}>
                 <li>
-                    {/* <a className={styles.link_button} href='/experience'>MEUS PROJETOS</a> */}
                     <a href='/experience' className={styles.link_button}>MEUS PROJETOS</a>
                 </li>
-            </div>
+            </div> */}
         </>
     )
 }
