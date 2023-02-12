@@ -14,26 +14,28 @@ function Navbar() {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
+    <>
+      <IconContext.Provider value={{ color: '#000' }}>
+        <div className={styles.navbar} >
+          <Link to='/' exact='true' className={styles.h1}>Thallia Julliana Brum</Link>
+          <Link to='/' exact='true' className={styles.h1_menor}>Thallia</Link>
+          <Link to='#' className={styles.menu_bars}>
+            <FaBars onClick={showSidebar} />
+          </Link>
+          <ul className={styles.list}>
+            <li className={styles.item} >
+              <Link exact='true' to='/'>INÍCIO</Link>
+            </li>
+            <li className={styles.item}>
+              <Link to='/aboutme'>SOBRE</Link>
+            </li>
+            <li className={styles.item}>
+              <Link to='/experience'>MEUS PROJETOS</Link>
+            </li>
+          </ul>
+        </div>
+      </IconContext.Provider>
 
-    <IconContext.Provider value={{ color: '#000' }}>
-      <div className={styles.navbar} >
-        <Link to='/' exact='true' className={styles.h1}>Thallia Julliana Brum</Link>
-        <Link to='/' exact='true' className={styles.h1_menor}>Thallia</Link>
-        <Link to='#' className={styles.menu_bars}>
-          <FaBars onClick={showSidebar} />
-        </Link>
-        <ul className={styles.list}>
-          <li className={styles.item} >
-            <Link exact='true' to='/'>INÍCIO</Link>
-          </li>
-          <li className={styles.item}>
-            <Link to='/aboutme'>SOBRE</Link>
-          </li>
-          <li className={styles.item}>
-            <Link to='/experience'>MEUS PROJETOS</Link>
-          </li>
-        </ul>
-      </div>
       {/* <nav className={sidebar ? 'nav_menu active' : 'nav_menu'}> */}
       <nav className={`${sidebar && styles.active} ${styles.nav_menu}`}>
         <ul className={styles.nav_menu_items} onClick={showSidebar}>
@@ -54,9 +56,9 @@ function Navbar() {
           })}
         </ul>
       </nav>
-    </IconContext.Provider>
+      {/* </IconContext.Provider> */}
 
-
+    </>
 
 
     // <nav className={styles.navbar}>

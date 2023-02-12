@@ -8,16 +8,16 @@ import Footer from './components/layout/Footer';
 
 function App() {
   return (
-   <Router>
+    <Router>
       <Navbar />
-        <Routes>
-          {/* para a versão utilizada do react-router que é a v.6 se utiliza outra sintaxe para renderizar às páginas */}
-          <Route exact path='/' element={<Home />}/>
-          <Route path='/aboutme' element={<AboutMe />}/>
-          <Route path='/experience' element={<Experience />}/>
-        </Routes>
-      <Footer/>
-   </Router>
+      <Routes>
+        {/* para a versão utilizada do react-router que é a v.6 se utiliza outra sintaxe para renderizar às páginas */}
+        <Route exact path='/' element={<Home />} />
+        <Route path='/aboutme' element={<AboutMe />} />
+        <Route path='/experience' element={<Experience />} />
+      </Routes>
+      <Footer />
+    </Router>
 
   );
 }
