@@ -26,6 +26,13 @@ h1 {
   font-weight: 400;
 }
 
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 1.8em;
+
+}
+
 a {
   color: var(--textDark);
 }

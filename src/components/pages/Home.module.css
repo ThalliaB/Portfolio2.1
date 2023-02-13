@@ -93,6 +93,27 @@
     text-decoration: none;
 }
 
+.skills {
+    padding: 3em;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.skills div h2 {
+    padding-bottom: 1em;
+}
+
+.skills div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills div img {
+    width: 80px;
+    margin: 1em;
+}
+
 
 @keyframes moveWave1 {
     from {

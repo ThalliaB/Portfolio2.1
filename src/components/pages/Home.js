@@ -2,6 +2,15 @@ import img from '../../img/fotoPerfil2.jpg';
 import img2 from '../../img/fotoPerfil768px.jpg';
 import styles from './Home.module.css';
 
+import html from '../../img/icons/html-5.png'
+import css from '../../img/icons/css-3.png'
+import js from '../../img/icons/js.png'
+import bootstrap from '../../img/icons/bootstrap.png'
+import react from '../../img/icons/reactJS.png'
+import java from '../../img/icons/java.png'
+import python from '../../img/icons/python.png'
+import csharp from '../../img/icons/c-sharp.png'
+
 function Home() {
     return (
         <>
@@ -22,6 +31,20 @@ function Home() {
                     </svg>
                 </section>
             </header>
+            <section className={styles.skills}>
+                <h2>Linguagens de programação</h2>
+                <div>
+                    <img src={html} alt='' />
+                    <img src={css} alt='' />
+                    <img src={js} alt='' />
+                    <img src={bootstrap} alt='' />
+                    <img src={react} alt='' />
+                    <img src={java} alt='' />
+                    <img src={python} alt='' />
+                    <img src={csharp} alt='' />
+
+                </div>
+            </section>
         </>
     )
 }
