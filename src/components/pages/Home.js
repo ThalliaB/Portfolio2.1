@@ -34,14 +34,14 @@ function Home() {
             <section className={styles.skills}>
                 <h2>Linguagens de programação</h2>
                 <div>
-                    <img src={html} alt='' />
-                    <img src={css} alt='' />
-                    <img src={js} alt='' />
-                    <img src={bootstrap} alt='' />
-                    <img src={react} alt='' />
-                    <img src={java} alt='' />
-                    <img src={python} alt='' />
-                    <img src={csharp} alt='' />
+                    <img src={html} alt='html5' />
+                    <img src={css} alt='css3' />
+                    <img src={js} alt='javaScript' />
+                    <img src={bootstrap} alt='Bootstrap 4' />
+                    <img src={react} alt='ReactJS' />
+                    <img src={java} alt='Java' />
+                    <img src={python} alt='Python' />
+                    <img src={csharp} alt='CSharp' />
 
                 </div>
             </section>
