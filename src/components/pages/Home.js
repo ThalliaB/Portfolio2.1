@@ -1,5 +1,5 @@
-import img from '../../img/fotoPerfil2.jpg';
-import img2 from '../../img/fotoPerfil768px.jpg';
+import img from '../../img/fotoPerfil3.jpg';
+import img2 from '../../img/fotoPerfil768px3.jpg';
 import styles from './Home.module.css';
 
 import html from '../../img/icons/html-5.png'
@@ -19,7 +19,7 @@ function Home() {
                 <img className={styles.img2} src={img2} alt='Imagem de perfil' />
                 <section className={styles.div_animation}>
                     <div className={styles.div_sobre}>
-                        <h1>Desenvolvedora Front-end</h1>
+                        <h1>Desenvolvedora Full-Stack</h1>
                         <span>Apaixonada por códigos!</span>
                         {/* <li className={styles.button}>
                             <a href='/aboutme' className={styles.link_button}>VEJA SOBRE MIM</a>
@@ -34,14 +34,14 @@ function Home() {
             <section className={styles.skills}>
                 <h2>Linguagens de programação</h2>
                 <div>
-                    <img src={html} alt='html5' />
-                    <img src={css} alt='css3' />
-                    <img src={js} alt='javaScript' />
-                    <img src={bootstrap} alt='Bootstrap 4' />
-                    <img src={react} alt='ReactJS' />
-                    <img src={java} alt='Java' />
-                    <img src={python} alt='Python' />
-                    <img src={csharp} alt='CSharp' />
+                    <abbr title='HTML5'><img src={html} alt='html5' /></abbr>
+                    <abbr title='CSS3'><img src={css} alt='css3' /></abbr>
+                    <abbr title='JavaScript'><img src={js} alt='javaScript' /></abbr>
+                    <abbr title='Bootstrap'><img src={bootstrap} alt='Bootstrap 4' /></abbr>
+                    <abbr title='ReactJS'><img src={react} alt='ReactJS' /></abbr>
+                    <abbr title='Java'><img src={java} alt='Java' /></abbr>
+                    <abbr title='Python'><img src={python} alt='Python' /></abbr>
+                    <abbr title='CSharp - C#'><img src={csharp} alt='CSharp' /></abbr>
 
                 </div>
             </section>

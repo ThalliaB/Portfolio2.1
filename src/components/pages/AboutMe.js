@@ -1,7 +1,7 @@
-import img from '../../img/foto2.1.jpg'
-import img2 from '../../img/foto3.1.jpg'
-import img3 from '../../img/foto4.jpg'
-import img4 from '../../img/fotoPerfil768px.jpg'
+import img from '../../img/foto2.1.2.jpg'
+import img2 from '../../img/foto2.2.2.jpg'
+import img3 from '../../img/foto2.3.2.jpg'
+import img4 from '../../img/fotoPerfil768px3.jpg'
 import styles from './AboutMe.module.css'
 
 function AboutMe() {
