@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d2a58f5.css",
-    "main.js": "/static/js/main.ed356c64.js",
-    "static/media/foto4.jpg": "/static/media/foto4.885bd2043451eea561d0.jpg",
-    "static/media/foto3.1.jpg": "/static/media/foto3.1.cd63271e202b0bb2699e.jpg",
-    "static/media/foto2.1.jpg": "/static/media/foto2.1.cf828915f1657772821a.jpg",
-    "static/media/fotoPerfil2.jpg": "/static/media/fotoPerfil2.3334fde9d3e71a4f3cea.jpg",
-    "static/media/fotoPerfil768px.jpg": "/static/media/fotoPerfil768px.c14aeab692ddd07ea97c.jpg",
+    "main.css": "/static/css/main.da833dc8.css",
+    "main.js": "/static/js/main.14902d8a.js",
+    "static/media/foto2.3.2.jpg": "/static/media/foto2.3.2.a31c3fcc4ad249a2396b.jpg",
+    "static/media/foto2.2.2.jpg": "/static/media/foto2.2.2.b1429048d7963f2a62b7.jpg",
+    "static/media/foto2.1.2.jpg": "/static/media/foto2.1.2.331b3d0796d47a614579.jpg",
+    "static/media/fotoPerfil3.jpg": "/static/media/fotoPerfil3.8dd155293338a2f26d91.jpg",
     "static/media/frutaEFruto.jpg": "/static/media/frutaEFruto.1cd0fff02def067041d8.jpg",
     "static/media/CasaFinaArquitetura.jpg": "/static/media/CasaFinaArquitetura.8679a2d2879c931d731a.jpg",
     "static/media/wildbest.jpg": "/static/media/wildbest.a63a2627a07c747fa6c0.jpg",
     "static/media/AluraFlix.jpg": "/static/media/AluraFlix.589ab9d74e148b25bee7.jpg",
+    "static/media/fotoPerfil768px3.jpg": "/static/media/fotoPerfil768px3.821cfff965a24fa29760.jpg",
     "static/media/barbeariaAlura.jpg": "/static/media/barbeariaAlura.a5e68df803a61e0d38cc.jpg",
     "static/media/LetYourComment.jpg": "/static/media/LetYourComment.1c11500d518a3bd927d2.jpg",
     "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
@@ -22,11 +22,11 @@
     "static/media/css-3.png": "/static/media/css-3.4a6549b8c2b4cda8bb88.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.7d2a58f5.css.map": "/static/css/main.7d2a58f5.css.map",
-    "main.ed356c64.js.map": "/static/js/main.ed356c64.js.map"
+    "main.da833dc8.css.map": "/static/css/main.da833dc8.css.map",
+    "main.14902d8a.js.map": "/static/js/main.14902d8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d2a58f5.css",
-    "static/js/main.ed356c64.js"
+    "static/css/main.da833dc8.css",
+    "static/js/main.14902d8a.js"
   ]
 }
