@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.da833dc8.css",
-    "main.js": "/static/js/main.14902d8a.js",
+    "main.js": "/static/js/main.a95b59be.js",
     "static/media/foto2.3.2.jpg": "/static/media/foto2.3.2.a31c3fcc4ad249a2396b.jpg",
     "static/media/foto2.2.2.jpg": "/static/media/foto2.2.2.b1429048d7963f2a62b7.jpg",
     "static/media/foto2.1.2.jpg": "/static/media/foto2.1.2.331b3d0796d47a614579.jpg",
@@ -13,6 +13,7 @@
     "static/media/fotoPerfil768px3.jpg": "/static/media/fotoPerfil768px3.821cfff965a24fa29760.jpg",
     "static/media/barbeariaAlura.jpg": "/static/media/barbeariaAlura.a5e68df803a61e0d38cc.jpg",
     "static/media/LetYourComment.jpg": "/static/media/LetYourComment.1c11500d518a3bd927d2.jpg",
+    "static/media/MyLibrary.png": "/static/media/MyLibrary.531fafcf6b386dae854e.png",
     "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/reactJS.png": "/static/media/reactJS.86c8d9eba03e29814d2a.png",
     "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
@@ -23,10 +24,10 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.da833dc8.css.map": "/static/css/main.da833dc8.css.map",
-    "main.14902d8a.js.map": "/static/js/main.14902d8a.js.map"
+    "main.a95b59be.js.map": "/static/js/main.a95b59be.js.map"
   },
   "entrypoints": [
     "static/css/main.da833dc8.css",
-    "static/js/main.14902d8a.js"
+    "static/js/main.a95b59be.js"
   ]
 }
